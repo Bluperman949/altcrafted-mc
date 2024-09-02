@@ -1,0 +1,15 @@
+:root {
+  --c-seagreen: #15bfb7;
+  --c-gunmetal: #2d3142;
+  --c-gray: #4f5d75;
+  --c-white: #ffffff;
+  --c-coral: #ef8354;
+}
+
+nav {
+  background-color: var(--c-seagreen);
+}
+
+nav a {
+  color: var(--c-coral);
+}
