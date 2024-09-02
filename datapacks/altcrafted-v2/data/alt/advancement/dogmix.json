@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "criterion": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "wolf"
+                },
+                "item": {
+                    "items": [
+                        "beef",
+                        "cooked_beef",
+                        "chicken",
+                        "cooked_chicken",
+                        "mutton",
+                        "cooked_mutton",
+                        "porkchop",
+                        "cooked_porkchop",
+                        "rabbit",
+                        "cooked_rabbit",
+                        "rotten_flesh"
+                    ]
+                }
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "beef"
+        },
+        "title": "Sad Dogmix",
+        "description": "Feed a dog"
+    },
+    "parent": "alt:smack_dogs"
+}

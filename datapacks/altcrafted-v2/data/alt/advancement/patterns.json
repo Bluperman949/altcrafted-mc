@@ -1,0 +1,84 @@
+{
+    "criteria": {
+        "globe": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "globe_banner_pattern"
+                        ]
+                    }
+                ]
+            }
+        },
+        "skull": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "skull_banner_pattern"
+                        ]
+                    }
+                ]
+            }
+        },
+        "flower": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "flower_banner_pattern"
+                        ]
+                    }
+                ]
+            }
+        },
+        "mojang": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "mojang_banner_pattern"
+                        ]
+                    }
+                ]
+            }
+        },
+        "piglin": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "piglin_banner_pattern"
+                        ]
+                    }
+                ]
+            }
+        },
+        "creeper": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "creeper_banner_pattern"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "piglin_banner_pattern"
+        },
+        "title": "Who Puts a Rug On the Wall?",
+        "description": "Collect every banner pattern"
+    },
+    "parent": "alt:collect_root"
+}

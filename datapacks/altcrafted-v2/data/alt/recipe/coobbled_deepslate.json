@@ -1,0 +1,10 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "item": "deepslate"
+    },
+    "result": {
+        "id": "cobbled_deepslate"
+    },
+    "count": 1
+}

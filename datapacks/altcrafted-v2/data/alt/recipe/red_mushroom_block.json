@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "red_mushroom"
+        }
+    },
+    "result": {
+        "id": "red_mushroom_block"
+    }
+}

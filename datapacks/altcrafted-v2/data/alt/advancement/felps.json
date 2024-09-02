@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "criterion": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "turtle_helmet"
+        },
+        "title": "Felps",
+        "description": "Swim 69,420m",
+        "frame": "challenge"
+    },
+    "parent": "alt:conduit"
+}

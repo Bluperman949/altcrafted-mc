@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "criterion": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "player"
+                },
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "end_rod"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "end_rod"
+        },
+        "title": "r/sounding",
+        "description": "Hit a player with an End Rod"
+    },
+    "parent": "alt:w"
+}

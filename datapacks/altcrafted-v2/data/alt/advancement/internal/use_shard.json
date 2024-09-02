@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "use_tome": {
+      "trigger": "using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "echo_shard"
+          ],
+          "count": 1
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "alt:shard/use"
+  }
+}

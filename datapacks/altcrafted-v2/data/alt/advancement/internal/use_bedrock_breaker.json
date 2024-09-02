@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "use_item": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "bat_spawn_egg"
+                    ],
+                    "custom_data": {
+                        "alt:id": "bedrock_breaker"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "alt:use_bedrock_breaker"
+    }
+}

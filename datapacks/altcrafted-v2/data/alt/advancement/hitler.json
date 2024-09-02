@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "criterion": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "villager_spawn_egg"
+        },
+        "title": "Literally Hitler",
+        "description": "Kill 6,000,000 Villagers",
+        "frame": "challenge"
+    },
+    "parent": "alt:racism"
+}

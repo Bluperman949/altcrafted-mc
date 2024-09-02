@@ -1,0 +1,11 @@
+{
+    "type": "smelting",
+    "ingredient": {
+        "item": "pink_concrete"
+    },
+    "result": {
+        "id": "pink_concrete_powder"
+    },
+    "cookingtime": 200,
+    "experience": 0.1
+}

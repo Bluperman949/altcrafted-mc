@@ -1,2 +1,2 @@
 # altcrafted-mc
-Files and documentation for my private Minecraft server
+Files and documentation for my private Minecraft server.

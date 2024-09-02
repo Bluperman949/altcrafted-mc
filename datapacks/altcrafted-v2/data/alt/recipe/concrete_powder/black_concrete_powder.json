@@ -1,0 +1,11 @@
+{
+    "type": "smelting",
+    "ingredient": {
+        "item": "black_concrete"
+    },
+    "result": {
+        "id": "black_concrete_powder"
+    },
+    "cookingtime": 200,
+    "experience": 0.1
+}

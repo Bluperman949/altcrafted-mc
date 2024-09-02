@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "criterion": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": [
+                            "deep_dark"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "sculk"
+        },
+        "title": "Deep Underground",
+        "description": "Enter the Deep Dark"
+    },
+    "parent": "alt:root"
+}

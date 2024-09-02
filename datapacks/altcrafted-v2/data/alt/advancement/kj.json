@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "criterion": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "skeleton_skull"
+        },
+        "title": "KJ0 Mode",
+        "description": "Die 600 times",
+        "frame": "challenge"
+    },
+    "parent": "alt:bee"
+}

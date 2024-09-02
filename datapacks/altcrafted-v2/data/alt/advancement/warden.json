@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "criterion": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "warden"
+                }
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "sculk_catalyst"
+        },
+        "title": "Intentional Suffering",
+        "description": "Kill a Warden",
+        "frame": "challenge"
+    },
+    "parent": "alt:darkness"
+}

@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "criterion": {
+            "trigger": "location"
+        }
+    },
+    "rewards": {
+        "function": "alt:log_in"
+    }
+}

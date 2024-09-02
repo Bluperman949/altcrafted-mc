@@ -1,0 +1,109 @@
+{
+    "criteria": {
+        "ponder": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:instrument":"minecraft:ponder_goat_horn"
+                        }
+                    }
+                ]
+            }
+        },
+        "sing": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:instrument":"minecraft:sing_goat_horn"
+                        }
+                    }
+                ]
+            }
+        },
+        "seek": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:instrument":"minecraft:seek_goat_horn"
+                        }
+                    }
+                ]
+            }
+        },
+        "feel": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:instrument":"minecraft:feel_goat_horn"
+                        }
+                    }
+                ]
+            }
+        },
+        "admire": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:instrument":"minecraft:admire_goat_horn"
+                        }
+                    }
+                ]
+            }
+        },
+        "call": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:instrument":"minecraft:call_goat_horn"
+                        }
+                    }
+                ]
+            }
+        },
+        "yearn": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:instrument":"minecraft:yearn_goat_horn"
+                        }
+                    }
+                ]
+            }
+        },
+        "dream": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:instrument":"minecraft:dream_goat_horn"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "goat_horn"
+        },
+        "title": "Horny",
+        "description": "Collect every goat horn",
+        "frame": "goal"
+    },
+    "parent": "alt:collect_root"
+}

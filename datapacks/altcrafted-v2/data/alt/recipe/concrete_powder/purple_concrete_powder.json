@@ -1,0 +1,11 @@
+{
+    "type": "smelting",
+    "ingredient": {
+        "item": "purple_concrete"
+    },
+    "result": {
+        "id": "purple_concrete_powder"
+    },
+    "cookingtime": 200,
+    "experience": 0.1
+}

@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "criterion": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "bedrock"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "bedrock"
+        },
+        "title": "An Expensive Joke",
+        "description": "Hammer Deepslate into Bedrock with a Netherite Block",
+        "frame": "challenge"
+    },
+    "parent": "alt:gapple"
+}

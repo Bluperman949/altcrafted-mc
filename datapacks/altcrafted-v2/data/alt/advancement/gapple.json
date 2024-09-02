@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "criterion": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:enchanted_golden_apple"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "enchanted_golden_apple"
+        },
+        "title": "Breaking Bad",
+        "description": "Obtain a performance enhancing Enchanted Golden Apple"
+    },
+    "parent": "alt:rich_root"
+}

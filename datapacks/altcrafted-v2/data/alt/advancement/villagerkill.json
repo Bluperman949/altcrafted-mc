@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "criterion": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "villager"
+                }
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "villager_spawn_egg"
+        },
+        "title": "Homicide",
+        "description": "Kill a Villager"
+    },
+    "parent": "alt:kill_root"
+}

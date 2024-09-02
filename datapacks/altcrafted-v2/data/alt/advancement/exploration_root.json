@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "criterion": {
+            "trigger": "fall_from_height",
+            "conditions": {
+                "distance": {
+                    "absolute": {
+                        "min": 3.9
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "leather_boots"
+        },
+        "title": "Broken Ankles",
+        "description": "The adventure has to start somewhere",
+        "announce_to_chat": false
+    },
+    "parent": "alt:root"
+}

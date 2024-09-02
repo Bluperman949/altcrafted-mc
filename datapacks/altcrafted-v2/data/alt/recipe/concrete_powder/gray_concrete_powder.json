@@ -1,0 +1,11 @@
+{
+    "type": "smelting",
+    "ingredient": {
+        "item": "gray_concrete"
+    },
+    "result": {
+        "id": "gray_concrete_powder"
+    },
+    "cookingtime": 200,
+    "experience": 0.1
+}

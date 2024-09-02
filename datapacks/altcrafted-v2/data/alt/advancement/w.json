@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "criterion": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "player"
+                }
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "golden_chestplate"
+        },
+        "title": "W <-- got this!",
+        "description": "Win a PvP fight"
+    },
+    "parent": "alt:l"
+}

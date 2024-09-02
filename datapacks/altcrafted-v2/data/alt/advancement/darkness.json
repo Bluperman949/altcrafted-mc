@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "criterion": {
+            "trigger": "effects_changed",
+            "conditions": {
+                "effects": {
+                    "darkness": {}
+                }
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "sculk_shrieker"
+        },
+        "title": "Don't Mine At Night",
+        "description": "Feel the effects of a Warden"
+    },
+    "parent": "alt:sculk"
+}

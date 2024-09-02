@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "criterion": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "deepslate_emerald_ore"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "deepslate_emerald_ore"
+        },
+        "title": "Rare Shekels",
+        "description": "Find the rarest ore in the game",
+        "frame": "challenge"
+    },
+    "parent": "alt:rich_root"
+}

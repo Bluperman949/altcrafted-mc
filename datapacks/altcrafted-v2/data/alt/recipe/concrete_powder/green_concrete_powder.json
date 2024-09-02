@@ -1,0 +1,11 @@
+{
+    "type": "smelting",
+    "ingredient": {
+        "item": "green_concrete"
+    },
+    "result": {
+        "id": "green_concrete_powder"
+    },
+    "cookingtime": 200,
+    "experience": 0.1
+}

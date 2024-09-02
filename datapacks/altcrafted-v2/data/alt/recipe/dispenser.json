@@ -1,0 +1,22 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " S#",
+        "SD#",
+        " S#"
+    ],
+    "key": {
+        "#": {
+            "item": "string"
+        },
+        "S": {
+            "item": "stick"
+        },
+        "D": {
+            "item": "dropper"
+        }
+    },
+    "result": {
+        "id": "dispenser"
+    }
+}

@@ -1,0 +1,19 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"#",
+		"s"
+	],
+	"key": {
+		"#": {
+			"item": "glow_ink_sac"
+		},
+		"s": {
+			"item": "stick"
+		}
+	},
+	"result": {
+		"id": "soul_torch",
+		"count": 4
+	}
+}

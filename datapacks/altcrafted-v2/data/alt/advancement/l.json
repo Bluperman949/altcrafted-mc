@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "criterion": {
+            "trigger": "entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "player"
+                }
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "chainmail_chestplate"
+        },
+        "title": "L <-- take this",
+        "description": "Lose a PvP fight"
+    },
+    "parent": "alt:root"
+}

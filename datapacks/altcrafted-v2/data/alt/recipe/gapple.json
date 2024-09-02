@@ -1,0 +1,25 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "C#G",
+        "#O#",
+        "G#C"
+    ],
+    "key": {
+        "#": {
+            "item": "gold_block"
+        },
+        "O": {
+            "item": "golden_apple"
+        },
+        "C": {
+            "item": "magma_cream"
+        },
+        "G": {
+            "item": "ghast_tear"
+        }
+    },
+    "result": {
+        "id": "enchanted_golden_apple"
+    }
+}
