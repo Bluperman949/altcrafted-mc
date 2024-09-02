@@ -61,12 +61,11 @@ h3 {
 }
 
 .column {
-  width: calc(50% - 5pt);
+  width: 50%;
 }
 
 .column.recipes {
   float: left;
-  min-width: 300pt;
 }
 
 .column.mechanics {
@@ -81,7 +80,9 @@ h3 {
     2pt 0 black,
     0 -2pt black,
     -2pt 0 black;
-  margin-bottom: 10pt;
+  display: block;
+  margin: auto auto 10pt auto;
+  width: 310pt;
 }
 
 .block {
@@ -101,6 +102,10 @@ h3 {
   margin: auto;
   display: block;
   image-rendering: pixelated;
+}
+
+.block-container.mechanic {
+  width: auto;
 }
 
 .text-box {
