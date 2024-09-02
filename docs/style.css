@@ -1,15 +1,118 @@
 :root {
-  --c-seagreen: #15bfb7;
-  --c-gunmetal: #2d3142;
-  --c-gray: #4f5d75;
-  --c-white: #ffffff;
-  --c-coral: #ef8354;
+  --c-background: #c6c6c6;
+  --c-tile: #8b8b8b;
+  --c-dark: #373737;
+  --c-text: #3f3f3f;
 }
 
-nav {
-  background-color: var(--c-seagreen);
+@font-face {
+  font-family: "MinecraftSeven";
+  src: url("font/MinecraftSeven.ttf") format("truetype");
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
 }
 
-nav a {
-  color: var(--c-coral);
+html,
+body {
+  height: 100%;
+}
+
+html {
+  background-image: url("img/background.png");
+  background-repeat: round;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "MinecraftSeven";
+  min-height: 2000px;
+}
+
+body {
+  width: 60%;
+  margin: auto;
+  padding-top: 20pt;
+}
+
+h1 {
+  font-size: 49pt;
+  color: #00ffff;
+  text-shadow: 5pt 5pt black;
+  margin: auto auto 20px auto;
+  background-color: #00000088;
+  padding: 0pt 5pt 10pt 5pt;
+}
+
+h2 {
+  font-size: 41px;
+  color: white;
+  text-shadow: 4px 4px black;
+  margin: auto auto 20px 10pt;
+  text-align: center;
+}
+
+h3 {
+  margin: auto;
+  font-size: 21pt;
+}
+
+.recipe h3 {
+  text-align: center;
+}
+
+.column {
+  width: calc(50% - 5pt);
+}
+
+.column.recipes {
+  float: left;
+  min-width: 300pt;
+}
+
+.column.mechanics {
+  float: right;
+}
+
+.block-container {
+  background-color: var(--c-background);
+  padding: 2pt;
+  box-shadow:
+    0 2pt black,
+    2pt 0 black,
+    0 -2pt black,
+    -2pt 0 black;
+  margin-bottom: 10pt;
+}
+
+.block {
+  padding: 5px;
+  color: var(--c-dark);
+  box-shadow:
+    0 -2pt white,
+    -2pt 0 white,
+    -2pt -2pt white,
+    0 2pt var(--c-dark),
+    2pt 0 var(--c-dark),
+    2pt 2pt var(--c-dark);
+}
+
+.recipe img {
+  width: 300pt;
+  margin: auto;
+  display: block;
+  image-rendering: pixelated;
+}
+
+.text-box {
+  background-color: var(--c-tile);
+  margin: 10pt 5pt 5pt 5pt;
+  padding: 3pt 5pt 5pt 5pt;
+  color: black;
+  box-shadow:
+    0 2pt white,
+    2pt 0 white,
+    2pt 2pt white,
+    0 -2pt var(--c-dark),
+    -2pt 0 var(--c-dark),
+    -2pt -2pt var(--c-dark);
 }
