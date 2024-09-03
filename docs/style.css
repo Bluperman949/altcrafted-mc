@@ -54,6 +54,10 @@ h3 {
   font-size: 21pt;
 }
 
+.sub {
+  text-align: center;
+}
+
 .recipe h3 {
   padding-top: 4pt;
   text-align: center;
