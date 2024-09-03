@@ -12,14 +12,8 @@
   text-rendering: optimizeLegibility;
 }
 
-html,
-body {
-  height: 100%;
-}
-
 html {
   background-image: url("img/background.png");
-  background-repeat: round;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,7 +23,7 @@ html {
 }
 
 body {
-  width: 60%;
+  width: 70%;
   margin: auto;
   padding-top: 20pt;
 }
@@ -40,36 +34,44 @@ h1 {
   text-shadow: 5pt 5pt black;
   margin: auto auto 20px auto;
   background-color: #00000088;
-  padding: 0pt 5pt 10pt 5pt;
+  padding: 0pt 0pt 10pt 5pt;
+}
+
+#table {
+  display: table;
+  direction: rtl;
 }
 
 h2 {
   font-size: 41px;
   color: white;
   text-shadow: 4px 4px black;
-  margin: auto auto 20px 10pt;
+  margin: auto auto 20pt auto;
   text-align: center;
 }
 
 h3 {
-  margin: auto;
+  margin: 0;
   font-size: 21pt;
 }
 
 .recipe h3 {
+  padding-top: 4pt;
   text-align: center;
 }
 
 .column {
-  width: 50%;
+  display: table-cell;
+  padding: 8pt;
+  direction: ltr;
 }
 
 .column.recipes {
-  float: left;
+  min-width: 300pt;
 }
 
 .column.mechanics {
-  float: right;
+  width: 100%;
 }
 
 .block-container {
@@ -80,13 +82,11 @@ h3 {
     2pt 0 black,
     0 -2pt black,
     -2pt 0 black;
-  display: block;
-  margin: auto auto 10pt auto;
-  width: 310pt;
+  margin-bottom: 10pt;
+  width: 100%;
 }
 
 .block {
-  padding: 5px;
   color: var(--c-dark);
   box-shadow:
     0 -2pt white,
@@ -97,21 +97,21 @@ h3 {
     2pt 2pt var(--c-dark);
 }
 
+.recipes .block-container {
+  width: 300pt;
+}
+
 .recipe img {
   width: 300pt;
-  margin: auto;
-  display: block;
   image-rendering: pixelated;
 }
 
-.block-container.mechanic {
-  width: auto;
+.block.mechanic {
+  padding: 0 10pt 10pt 10pt;
 }
 
 .text-box {
   background-color: var(--c-tile);
-  margin: 10pt 5pt 5pt 5pt;
-  padding: 3pt 5pt 5pt 5pt;
   color: black;
   box-shadow:
     0 2pt white,
@@ -120,4 +120,57 @@ h3 {
     0 -2pt var(--c-dark),
     -2pt 0 var(--c-dark),
     -2pt -2pt var(--c-dark);
+}
+
+.mechanic .text-box {
+  padding: 3pt 5pt 5pt 5pt;
+  margin-top: 10pt;
+}
+
+.search label {
+  width: 60pt;
+  color: var(--c-dark);
+  margin-left: 4pt;
+}
+
+.search input {
+  display: table-cell;
+  padding: 0 0 2pt 2pt;
+  border: none;
+  width: 230pt;
+  font-family: "MinecraftSeven";
+  margin: 5pt auto 5pt 8pt;
+  
+}
+
+input:focus {
+  outline: none;
+}
+
+@media (max-width: 800pt) {
+  body {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  #table {
+    display: block;
+    direction: unset;
+  }
+
+  .column {
+    display: block;
+  }
+
+  .block-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .block-container.mechanic {
+    width: 300pt;
+  }
 }
