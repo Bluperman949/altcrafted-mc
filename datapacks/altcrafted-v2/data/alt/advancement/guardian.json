@@ -1,20 +1,20 @@
 {
-    "criteria": {
-        "criterion": {
-            "trigger": "player_killed_entity",
-            "conditions": {
-                "entity": {
-                    "type": "elder_guardian"
-                }
-            }
+  "criteria": {
+    "criterion": {
+      "trigger": "player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "elder_guardian"
         }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "prismarine_bricks"
     },
-    "display": {
-        "icon": {
-            "id": "prismarine_bricks"
-        },
-        "title": "Take That, Old Man",
-        "description": "Kill an Elder Guardian"
-    },
-    "parent": "alt:kill_root"
+    "title": "Take That, Old Man",
+    "description": "Kill an Elder Guardian"
+  },
+  "parent": "alt:kill_root"
 }

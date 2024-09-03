@@ -1,205 +1,205 @@
 {
-    "criteria": {
-        "11": {
-            "trigger": "inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "music_disc_11"
-                        ]
-                    }
-                ]
-            }
-        },
-        "13": {
-            "trigger": "inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "music_disc_13"
-                        ]
-                    }
-                ]
-            }
-        },
-        "5": {
-            "trigger": "inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "music_disc_5"
-                        ]
-                    }
-                ]
-            }
-        },
-        "blocks": {
-            "trigger": "inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "music_disc_blocks"
-                        ]
-                    }
-                ]
-            }
-        },
-        "cat": {
-            "trigger": "inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "music_disc_cat"
-                        ]
-                    }
-                ]
-            }
-        },
-        "chirp": {
-            "trigger": "inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "music_disc_chirp"
-                        ]
-                    }
-                ]
-            }
-        },
-        "far": {
-            "trigger": "inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "music_disc_far"
-                        ]
-                    }
-                ]
-            }
-        },
-        "mall": {
-            "trigger": "inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "music_disc_mall"
-                        ]
-                    }
-                ]
-            }
-        },
-        "mellohi": {
-            "trigger": "inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "music_disc_mellohi"
-                        ]
-                    }
-                ]
-            }
-        },
-        "otherside": {
-            "trigger": "inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "music_disc_otherside"
-                        ]
-                    }
-                ]
-            }
-        },
-        "pigstep": {
-            "trigger": "inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "music_disc_pigstep"
-                        ]
-                    }
-                ]
-            }
-        },
-        "stal": {
-            "trigger": "inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "music_disc_stal"
-                        ]
-                    }
-                ]
-            }
-        },
-        "strad": {
-            "trigger": "inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "music_disc_strad"
-                        ]
-                    }
-                ]
-            }
-        },
-        "wait": {
-            "trigger": "inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "music_disc_wait"
-                        ]
-                    }
-                ]
-            }
-        },
-        "ward": {
-            "trigger": "inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "music_disc_ward"
-                        ]
-                    }
-                ]
-            }
-        },
-        "relic": {
-            "trigger": "inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "music_disc_relic"
-                        ]
-                    }
-                ]
-            }
-        }
+  "criteria": {
+    "11": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "music_disc_11"
+            ]
+          }
+        ]
+      }
     },
-    "display": {
-        "icon": {
-            "id": "music_disc_chirp"
-        },
-        "title": "Bangers",
-        "description": "Collect every music disc",
-        "frame": "challenge"
+    "13": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "music_disc_13"
+            ]
+          }
+        ]
+      }
     },
-    "parent": "alt:horns"
+    "5": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "music_disc_5"
+            ]
+          }
+        ]
+      }
+    },
+    "blocks": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "music_disc_blocks"
+            ]
+          }
+        ]
+      }
+    },
+    "cat": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "music_disc_cat"
+            ]
+          }
+        ]
+      }
+    },
+    "chirp": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "music_disc_chirp"
+            ]
+          }
+        ]
+      }
+    },
+    "far": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "music_disc_far"
+            ]
+          }
+        ]
+      }
+    },
+    "mall": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "music_disc_mall"
+            ]
+          }
+        ]
+      }
+    },
+    "mellohi": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "music_disc_mellohi"
+            ]
+          }
+        ]
+      }
+    },
+    "otherside": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "music_disc_otherside"
+            ]
+          }
+        ]
+      }
+    },
+    "pigstep": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "music_disc_pigstep"
+            ]
+          }
+        ]
+      }
+    },
+    "stal": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "music_disc_stal"
+            ]
+          }
+        ]
+      }
+    },
+    "strad": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "music_disc_strad"
+            ]
+          }
+        ]
+      }
+    },
+    "wait": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "music_disc_wait"
+            ]
+          }
+        ]
+      }
+    },
+    "ward": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "music_disc_ward"
+            ]
+          }
+        ]
+      }
+    },
+    "relic": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "music_disc_relic"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "music_disc_chirp"
+    },
+    "title": "Bangers",
+    "description": "Collect every music disc",
+    "frame": "challenge"
+  },
+  "parent": "alt:horns"
 }

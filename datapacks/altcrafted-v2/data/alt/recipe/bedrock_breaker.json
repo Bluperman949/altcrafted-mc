@@ -1,21 +1,21 @@
 {
-    "type": "crafting_shaped",
-    "pattern": [
-        "#O#",
-        " T "
-    ],
-    "key": {
-        "O": {
-            "item": "egg"
-        },
-        "T": {
-            "item": "iron_pickaxe"
-        },
-        "#": {
-            "item": "netherite_scrap"
-        }
+  "type": "crafting_shaped",
+  "pattern": [
+    "#O#",
+    " T "
+  ],
+  "key": {
+    "O": {
+      "item": "egg"
     },
-    "result": {
-        "id": "enderman_spawn_egg"
+    "T": {
+      "item": "iron_pickaxe"
+    },
+    "#": {
+      "item": "netherite_scrap"
     }
+  },
+  "result": {
+    "id": "enderman_spawn_egg"
+  }
 }

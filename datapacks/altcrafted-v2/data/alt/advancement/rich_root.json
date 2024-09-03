@@ -1,24 +1,24 @@
 {
-    "criteria": {
-        "criterion": {
-            "trigger": "inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "diamond_block"
-                        ]
-                    }
-                ]
-            }
-        }
+  "criteria": {
+    "criterion": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "diamond_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "diamond_block"
     },
-    "display": {
-        "icon": {
-            "id": "diamond_block"
-        },
-        "title": "Shekels",
-        "description": "Show off your riches with a Diamond Block"
-    },
-    "parent": "alt:root"
+    "title": "Shekels",
+    "description": "Show off your riches with a Diamond Block"
+  },
+  "parent": "alt:root"
 }

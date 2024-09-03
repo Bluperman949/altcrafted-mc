@@ -1,11 +1,11 @@
 {
-    "type": "smelting",
-    "ingredient": {
-        "item": "white_concrete"
-    },
-    "result": {
-        "id": "white_concrete_powder"
-    },
-    "cookingtime": 200,
-    "experience": 0.1
+  "type": "smelting",
+  "ingredient": {
+    "item": "white_concrete"
+  },
+  "result": {
+    "id": "white_concrete_powder"
+  },
+  "cookingtime": 200,
+  "experience": 0.1
 }

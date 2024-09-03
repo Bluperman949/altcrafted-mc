@@ -1,29 +1,29 @@
 {
-    "criteria": {
-        "criterion": {
-            "trigger": "enchanted_item",
-            "conditions": {
-                "item": {
-                    "items": [
-                        "wooden_hoe"
-                    ]
-                }
-            }
+  "criteria": {
+    "criterion": {
+      "trigger": "enchanted_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "wooden_hoe"
+          ]
         }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "wooden_hoe",
+      "components": {
+        "minecraft:enchantments": {
+          "levels": {
+            "minecraft:unbreaking": 1
+          }
+        }
+      }
     },
-    "display": {
-        "icon": {
-            "id": "wooden_hoe",
-            "components": {
-                "minecraft:enchantments": {
-                    "levels": {
-                        "minecraft:unbreaking": 1
-                    }
-                }
-            }
-        },
-        "title": "Dumbass",
-        "description": "Enchant a Wooden Hoe"
-    },
-    "parent": "alt:root"
+    "title": "Dumbass",
+    "description": "Enchant a Wooden Hoe"
+  },
+  "parent": "alt:root"
 }

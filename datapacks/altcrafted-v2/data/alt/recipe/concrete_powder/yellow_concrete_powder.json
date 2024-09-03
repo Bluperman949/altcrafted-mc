@@ -1,11 +1,11 @@
 {
-    "type": "smelting",
-    "ingredient": {
-        "item": "yellow_concrete"
-    },
-    "result": {
-        "id": "yellow_concrete_powder"
-    },
-    "cookingtime": 200,
-    "experience": 0.1
+  "type": "smelting",
+  "ingredient": {
+    "item": "yellow_concrete"
+  },
+  "result": {
+    "id": "yellow_concrete_powder"
+  },
+  "cookingtime": 200,
+  "experience": 0.1
 }

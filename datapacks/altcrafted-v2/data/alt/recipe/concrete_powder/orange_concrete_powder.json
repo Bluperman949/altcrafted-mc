@@ -1,11 +1,11 @@
 {
-    "type": "smelting",
-    "ingredient": {
-        "item": "orange_concrete"
-    },
-    "result": {
-        "id": "orange_concrete_powder"
-    },
-    "cookingtime": 200,
-    "experience": 0.1
+  "type": "smelting",
+  "ingredient": {
+    "item": "orange_concrete"
+  },
+  "result": {
+    "id": "orange_concrete_powder"
+  },
+  "cookingtime": 200,
+  "experience": 0.1
 }

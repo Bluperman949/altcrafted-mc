@@ -1,19 +1,19 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#P",
-        " P",
-        " P"
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:lead"
-        },
-        "P": {
-            "item": "minecraft:paper"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#P",
+    " P",
+    " P"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lead"
     },
-    "result": {
-        "id": "minecraft:name_tag"
+    "P": {
+      "item": "minecraft:paper"
     }
+  },
+  "result": {
+    "id": "minecraft:name_tag"
+  }
 }

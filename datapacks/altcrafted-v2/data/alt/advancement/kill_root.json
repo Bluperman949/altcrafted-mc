@@ -1,15 +1,15 @@
 {
-    "criteria": {
-        "criterion": {
-            "trigger": "player_killed_entity"
-        }
+  "criteria": {
+    "criterion": {
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "stone_sword"
     },
-    "display": {
-        "icon": {
-            "id": "stone_sword"
-        },
-        "title": "Bloody Hands",
-        "description": "Kill something and realize your destructive potential"
-    },
-    "parent": "alt:root"
+    "title": "Bloody Hands",
+    "description": "Kill something and realize your destructive potential"
+  },
+  "parent": "alt:root"
 }

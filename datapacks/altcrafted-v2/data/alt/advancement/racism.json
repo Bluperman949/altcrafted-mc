@@ -1,15 +1,15 @@
 {
-    "criteria": {
-        "criterion": {
-            "trigger": "impossible"
-        }
+  "criteria": {
+    "criterion": {
+      "trigger": "impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "wandering_trader_spawn_egg"
     },
-    "display": {
-        "icon": {
-            "id": "wandering_trader_spawn_egg"
-        },
-        "title": "Racism",
-        "description": "Kill 10 Wandering Traders"
-    },
-    "parent": "alt:villagerkill"
+    "title": "Racism",
+    "description": "Kill 10 Wandering Traders"
+  },
+  "parent": "alt:villagerkill"
 }

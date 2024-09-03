@@ -1,11 +1,11 @@
 {
-    "type": "smelting",
-    "ingredient": {
-        "item": "light_gray_concrete"
-    },
-    "result": {
-        "id": "light_gray_concrete_powder"
-    },
-    "cookingtime": 200,
-    "experience": 0.1
+  "type": "smelting",
+  "ingredient": {
+    "item": "light_gray_concrete"
+  },
+  "result": {
+    "id": "light_gray_concrete_powder"
+  },
+  "cookingtime": 200,
+  "experience": 0.1
 }

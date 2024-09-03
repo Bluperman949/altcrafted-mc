@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "criterion": {
-            "trigger": "entity_hurt_player",
-            "conditions": {
-                "damage": {
-                    "source_entity": {
-                        "type": "bee"
-                    }
-                }
-            }
+  "criteria": {
+    "criterion": {
+      "trigger": "entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "bee"
+          }
         }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "honeycomb"
     },
-    "display": {
-        "icon": {
-            "id": "honeycomb"
-        },
-        "title": "Bee In Ass",
-        "description": "Anger a Bee and take a hit from the swarm"
-    },
-    "parent": "alt:wordington"
+    "title": "Bee In Ass",
+    "description": "Anger a Bee and take a hit from the swarm"
+  },
+  "parent": "alt:wordington"
 }

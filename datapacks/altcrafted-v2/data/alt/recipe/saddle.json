@@ -1,22 +1,22 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "  #",
-        "LLL",
-        " T "
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:lead"
-        },
-        "L": {
-            "item": "minecraft:leather"
-        },
-        "T": {
-            "item": "minecraft:tripwire_hook"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+    "LLL",
+    " T "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lead"
     },
-    "result": {
-        "id": "minecraft:saddle"
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "T": {
+      "item": "minecraft:tripwire_hook"
     }
+  },
+  "result": {
+    "id": "minecraft:saddle"
+  }
 }

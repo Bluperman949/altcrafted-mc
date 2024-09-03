@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "criterion": {
-            "trigger": "consume_item",
-            "conditions": {
-                "item": {
-                    "items": [
-                        "pufferfish"
-                    ]
-                }
-            }
+  "criteria": {
+    "criterion": {
+      "trigger": "consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "pufferfish"
+          ]
         }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "pufferfish"
     },
-    "display": {
-        "icon": {
-            "id": "pufferfish"
-        },
-        "title": "Da Bobs Fish",
-        "description": "Eat a Pufferfish"
-    },
-    "parent": "alt:stew"
+    "title": "Da Bobs Fish",
+    "description": "Eat a Pufferfish"
+  },
+  "parent": "alt:stew"
 }

@@ -1,28 +1,28 @@
 {
-    "criteria": {
-        "criterion": {
-            "trigger": "player_killed_entity",
-            "conditions": {
-                "entity": {
-                    "type": "player"
-                },
-                "killing_blow": {
-                    "tags": [
-                        {
-                            "expected": true,
-                            "id": "is_explosion"
-                        }
-                    ]
-                }
-            }
-        }
-    },
-    "display": {
-        "icon": {
-            "id": "tnt"
+  "criteria": {
+    "criterion": {
+      "trigger": "player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "player"
         },
-        "title": "A Normal Item Shop",
-        "description": "Kill a player with explosives"
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": true,
+              "id": "is_explosion"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "tnt"
     },
-    "parent": "alt:w"
+    "title": "A Normal Item Shop",
+    "description": "Kill a player with explosives"
+  },
+  "parent": "alt:w"
 }

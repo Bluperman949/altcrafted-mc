@@ -1,16 +1,16 @@
 {
-    "criteria": {
-        "criterion": {
-            "trigger": "recipe_unlocked",
-            "conditions": {
-                "recipe": "alt:bedrock_breaker"
-            }
-        }
-    },
-    "rewards": {
-        "function": "alt:craft_bedrock_breaker",
-        "loot": [
-            "alt:bedrock_breaker"
-        ]
+  "criteria": {
+    "criterion": {
+      "trigger": "recipe_unlocked",
+      "conditions": {
+        "recipe": "alt:bedrock_breaker"
+      }
     }
+  },
+  "rewards": {
+    "function": "alt:craft_bedrock_breaker",
+    "loot": [
+      "alt:bedrock_breaker"
+    ]
+  }
 }

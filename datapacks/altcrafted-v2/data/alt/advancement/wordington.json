@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "criterion": {
-            "trigger": "entity_hurt_player",
-            "conditions": {
-                "damage": {
-                    "source_entity": {
-                        "type": "enderman"
-                    }
-                }
-            }
+  "criteria": {
+    "criterion": {
+      "trigger": "entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "enderman"
+          }
         }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "ender_pearl"
     },
-    "display": {
-        "icon": {
-            "id": "ender_pearl"
-        },
-        "title": "Wordington Mob",
-        "description": "Anger an Enderman and take a punch from him"
-    },
-    "parent": "alt:exploration_root"
+    "title": "Wordington Mob",
+    "description": "Anger an Enderman and take a punch from him"
+  },
+  "parent": "alt:exploration_root"
 }

@@ -1,46 +1,46 @@
 {
-    "criteria": {
-        "criterion": {
-            "trigger": "inventory_changed",
-            "conditions": {
-                "player": {
-                    "equipment": {
-                        "head": {
-                            "items": [
-                                "leather_helmet"
-                            ],
-                            "components": {"minecraft:dyed_color": 15961002}
-                        },
-                        "chest": {
-                            "items": [
-                                "leather_chestplate"
-                            ],
-                            "components": {"minecraft:dyed_color": 15961002}
-                        },
-                        "legs": {
-                            "items": [
-                                "leather_leggings"
-                            ],
-                            "components": {"minecraft:dyed_color": 15961002}
-                        },
-                        "feet": {
-                            "items": [
-                                "leather_boots"
-                            ],
-                            "components": {"minecraft:dyed_color": 15961002}
-                        }
-                    }
-                }
+  "criteria": {
+    "criterion": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "leather_helmet"
+              ],
+              "components": {"minecraft:dyed_color": 15961002}
+            },
+            "chest": {
+              "items": [
+                "leather_chestplate"
+              ],
+              "components": {"minecraft:dyed_color": 15961002}
+            },
+            "legs": {
+              "items": [
+                "leather_leggings"
+              ],
+              "components": {"minecraft:dyed_color": 15961002}
+            },
+            "feet": {
+              "items": [
+                "leather_boots"
+              ],
+              "components": {"minecraft:dyed_color": 15961002}
             }
+          }
         }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "leather_leggings",
+      "components": {"minecraft:dyed_color": 15961002}
     },
-    "display": {
-        "icon": {
-            "id": "leather_leggings",
-            "components": {"minecraft:dyed_color": 15961002}
-        },
-        "title": "I'm Gay",
-        "description": "Wear Chellis' favorite outfit: full pink armor."
-    },
-    "parent": "alt:root"
+    "title": "I'm Gay",
+    "description": "Wear Chellis' favorite outfit: full pink armor."
+  },
+  "parent": "alt:root"
 }

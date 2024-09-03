@@ -1,17 +1,17 @@
 {
-    "criteria": {
-        "automatic": {
-            "trigger": "tick"
-        }
-    },
-    "display": {
-        "icon": {
-            "id": "sea_pickle"
-        },
-        "title": "AltCrafted",
-        "description": "Very Important Tasks™",
-        "background": "textures/block/dark_prismarine.png",
-        "announce_to_chat": false,
-        "show_toast": false
+  "criteria": {
+    "automatic": {
+      "trigger": "tick"
     }
+  },
+  "display": {
+    "icon": {
+      "id": "sea_pickle"
+    },
+    "title": "AltCrafted",
+    "description": "Very Important Tasks™",
+    "background": "textures/block/dark_prismarine.png",
+    "announce_to_chat": false,
+    "show_toast": false
+  }
 }

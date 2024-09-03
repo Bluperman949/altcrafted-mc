@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "criterion": {
-            "trigger": "consume_item",
-            "conditions": {
-                "item": {
-                    "items": [
-                        "suspicious_stew"
-                    ]
-                }
-            }
+  "criteria": {
+    "criterion": {
+      "trigger": "consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "suspicious_stew"
+          ]
         }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "suspicious_stew"
     },
-    "display": {
-        "icon": {
-            "id": "suspicious_stew"
-        },
-        "title": "Goyslop",
-        "description": "Eat some Suspicious Stew"
-    },
-    "parent": "alt:root"
+    "title": "Goyslop",
+    "description": "Eat some Suspicious Stew"
+  },
+  "parent": "alt:root"
 }

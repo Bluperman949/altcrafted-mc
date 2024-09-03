@@ -1,18 +1,18 @@
 {
-    "type": "crafting_shaped",
-    "pattern": [
-        "BR",
-        "RB"
-    ],
-    "key": {
-        "B": {
-            "item": "brown_mushroom"
-        },
-        "R": {
-            "item": "red_mushroom"
-        }
+  "type": "crafting_shaped",
+  "pattern": [
+    "BR",
+    "RB"
+  ],
+  "key": {
+    "B": {
+      "item": "brown_mushroom"
     },
-    "result": {
-        "id": "mushroom_stem"
+    "R": {
+      "item": "red_mushroom"
     }
+  },
+  "result": {
+    "id": "mushroom_stem"
+  }
 }

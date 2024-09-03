@@ -1,20 +1,20 @@
 {
-    "criteria": {
-        "criterion": {
-            "trigger": "effects_changed",
-            "conditions": {
-                "effects": {
-                    "conduit_power": {}
-                }
-            }
+  "criteria": {
+    "criterion": {
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "conduit_power": {}
         }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "conduit"
     },
-    "display": {
-        "icon": {
-            "id": "conduit"
-        },
-        "title": "Water [CENSORED]s",
-        "description": "Breathe underwater with a Conduit"
-    },
-    "parent": "alt:exploration_root"
+    "title": "Water [CENSORED]s",
+    "description": "Breathe underwater with a Conduit"
+  },
+  "parent": "alt:exploration_root"
 }

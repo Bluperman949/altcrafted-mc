@@ -1,27 +1,27 @@
 {
-    "criteria": {
-        "criterion": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "position": {
-                            "y": {
-                                "max": -65
-                            }
-                        },
-                        "dimension": "the_end"
-                    }
-                }
-            }
+  "criteria": {
+    "criterion": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "max": -65
+              }
+            },
+            "dimension": "the_end"
+          }
         }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "black_concrete"
     },
-    "display": {
-        "icon": {
-            "id": "black_concrete"
-        },
-        "title": "The Void",
-        "description": "Fall into the void in The End"
-    },
-    "parent": "alt:netherroof"
+    "title": "The Void",
+    "description": "Fall into the void in The End"
+  },
+  "parent": "alt:netherroof"
 }

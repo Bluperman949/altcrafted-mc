@@ -1,28 +1,28 @@
 {
-    "criteria": {
-        "criterion": {
-            "trigger": "location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "position": {
-                            "y": {
-                                "min": 128
-                            }
-                        },
-                        "dimension": "the_nether"
-                    }
-                }
-            }
+  "criteria": {
+    "criterion": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "min": 128
+              }
+            },
+            "dimension": "the_nether"
+          }
         }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "basalt"
     },
-    "display": {
-        "icon": {
-            "id": "basalt"
-        },
-        "title": "Purgatory",
-        "description": "Climb on top of the Nether",
-        "frame": "goal"
-    },
-    "parent": "alt:exploration_root"
+    "title": "Purgatory",
+    "description": "Climb on top of the Nether",
+    "frame": "goal"
+  },
+  "parent": "alt:exploration_root"
 }

@@ -1,17 +1,17 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "minecraft:redstone"
-        },
-        {
-            "item": "minecraft:honey_bottle"
-        },
-        {
-            "item": "minecraft:lime_dye"
-        }
-    ],
-    "result": {
-        "id": "minecraft:slime_ball"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "minecraft:lime_dye"
     }
+  ],
+  "result": {
+    "id": "minecraft:slime_ball"
+  }
 }

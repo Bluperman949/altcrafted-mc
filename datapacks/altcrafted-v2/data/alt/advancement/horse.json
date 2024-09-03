@@ -1,20 +1,20 @@
 {
-    "criteria": {
-        "criterion": {
-            "trigger": "player_killed_entity",
-            "conditions": {
-                "entity": {
-                    "type": "horse"
-                }
-            }
+  "criteria": {
+    "criterion": {
+      "trigger": "player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "horse"
         }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "leather"
     },
-    "display": {
-        "icon": {
-            "id": "leather"
-        },
-        "title": "How Hungry?",
-        "description": "Kill a horse."
-    },
-    "parent": "alt:kill_root"
+    "title": "How Hungry?",
+    "description": "Kill a horse."
+  },
+  "parent": "alt:kill_root"
 }

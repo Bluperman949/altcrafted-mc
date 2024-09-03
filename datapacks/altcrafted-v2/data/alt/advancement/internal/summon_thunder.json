@@ -1,16 +1,16 @@
 {
-    "criteria": {
-        "drop_item": {
-            "trigger": "player_interacted_with_entity",
-            "conditions": {
-                "entity": {
-                    "type": "glow_item_frame",
-                    "nbt": {"Item":{"id":"minecraft:heart_of_the_sea"}}
-                }
-            }
+  "criteria": {
+    "drop_item": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "glow_item_frame",
+          "nbt": {"Item":{"id":"minecraft:heart_of_the_sea"}}
         }
-    },
-    "rewards": {
-        "function": "alt:summon_thunder_pre"
+      }
     }
+  },
+  "rewards": {
+    "function": "alt:summon_thunder_pre"
+  }
 }

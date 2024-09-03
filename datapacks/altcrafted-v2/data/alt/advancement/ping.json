@@ -1,28 +1,28 @@
 {
-    "criteria": {
-        "criterion": {
-            "trigger": "player_killed_entity",
-            "conditions": {
-                "entity": {
-                    "type": "player"
-                },
-                "killing_blow": {
-                    "tags": [
-                        {
-                            "expected": true,
-                            "id": "is_projectile"
-                        }
-                    ]
-                }
-            }
-        }
-    },
-    "display": {
-        "icon": {
-            "id": "bow"
+  "criteria": {
+    "criterion": {
+      "trigger": "player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "player"
         },
-        "title": "Ping",
-        "description": "Kill a player with a ranged weapon"
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": true,
+              "id": "is_projectile"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "bow"
     },
-    "parent": "alt:w"
+    "title": "Ping",
+    "description": "Kill a player with a ranged weapon"
+  },
+  "parent": "alt:w"
 }

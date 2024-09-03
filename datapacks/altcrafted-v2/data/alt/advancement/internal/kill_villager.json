@@ -1,15 +1,15 @@
 {
-    "criteria": {
-        "Criterion": {
-            "trigger": "player_killed_entity",
-            "conditions": {
-                "entity": {
-                    "type": "villager"
-                }
-            }
+  "criteria": {
+    "Criterion": {
+      "trigger": "player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "villager"
         }
-    },
-    "rewards": {
-        "function": "alt:kill_villager"
+      }
     }
+  },
+  "rewards": {
+    "function": "alt:kill_villager"
+  }
 }
