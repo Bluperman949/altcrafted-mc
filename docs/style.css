@@ -25,13 +25,15 @@ body {
   width: 70%;
   margin: auto;
   padding-top: 20pt;
+  min-height: 2000pt;
+  font-size: 14pt;
 }
 
 h1 {
   font-size: 49pt;
   color: #00ffff;
   text-shadow: 5pt 5pt black;
-  margin: auto auto 20px auto;
+  margin: auto auto 20pt auto;
   background-color: #00000088;
   padding: 0pt 0pt 10pt 5pt;
 }
@@ -42,9 +44,9 @@ h1 {
 }
 
 h2 {
-  font-size: 41px;
+  font-size: 28pt;
   color: white;
-  text-shadow: 4px 4px black;
+  text-shadow: 4pt 4pt black;
   margin: auto auto 20pt auto;
   text-align: center;
 }
@@ -59,7 +61,7 @@ h3 {
 }
 
 .recipe h3 {
-  padding-top: 4pt;
+  padding-top: 2pt;
   text-align: center;
 }
 
@@ -67,10 +69,6 @@ h3 {
   display: table-cell;
   padding: 8pt;
   direction: ltr;
-}
-
-.column.recipes {
-  min-width: 300pt;
 }
 
 .column.mechanics {
@@ -98,10 +96,6 @@ h3 {
     0 2pt var(--c-dark),
     2pt 0 var(--c-dark),
     2pt 2pt var(--c-dark);
-}
-
-.recipes .block-container {
-  width: 300pt;
 }
 
 .recipe img {
@@ -140,23 +134,34 @@ h3 {
   display: table-cell;
   padding: 0 0 2pt 2pt;
   border: none;
-  width: 230pt;
   font-family: "MinecraftSeven";
   margin: 5pt auto 5pt 8pt;
-  
+  width: calc(100% - 80pt);
 }
 
 input:focus {
   outline: none;
 }
 
-@media (max-width: 800pt) {
+@media (min-width: 751pt) {
+  .column.recipes {
+    min-width: 304pt;
+  }
+}
+
+@media (max-width: 750pt) {
   body {
-    width: auto;
+    width: 100%;
   }
 
   h1 {
     text-align: center;
+    font-size: 41pt;
+    padding-left: 0;
+  }
+
+  h3 {
+    font-size: 14pt;
   }
 
   #table {
@@ -166,6 +171,8 @@ input:focus {
 
   .column {
     display: block;
+    width: auto;
+    padding: 0;
   }
 
   .block-container {
@@ -173,7 +180,15 @@ input:focus {
     margin-right: auto;
   }
 
-  .block-container.mechanic {
-    width: 300pt;
+  .block-container.recipe {
+    width: 200pt;
+  }
+
+  .block-container {
+    width: 90%;
+  }
+
+  .recipe img {
+    width: 200pt;
   }
 }
