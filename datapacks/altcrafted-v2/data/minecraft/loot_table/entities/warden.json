@@ -55,6 +55,11 @@
           "name": "minecraft:silence_armor_trim_smithing_template",
           "weight": 2
         }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        }
       ]
     },
     {
@@ -145,6 +150,11 @@
               "eat_seconds": 2147483647
             }
           }
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
         }
       ]
     }

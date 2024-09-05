@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "Criterion": {
+      "trigger": "player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "warden"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "alt:hit_warden"
+  }
+}
