@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "Craft": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "alt:elytra"
+      }
+    }
+  },
+  "rewards": {
+    "function": "alt:craft_elytra"
+  }
+}
