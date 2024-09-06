@@ -8,8 +8,8 @@
 @font-face {
   font-family: "MinecraftSeven";
   src: url("font/MinecraftSeven.ttf") format("truetype");
-  font-weight: bold;
   text-rendering: optimizeLegibility;
+  font-weight: bold;
 }
 
 html {
@@ -31,8 +31,8 @@ body {
 
 h1 {
   font-size: 49pt;
-  color: #00ffff;
   text-shadow: 5pt 5pt black;
+  color: #00ffff;
   margin: auto auto 20pt auto;
   background-color: #00000088;
   padding: 0pt 0pt 10pt 5pt;
@@ -46,7 +46,7 @@ h1 {
 h2 {
   font-size: 28pt;
   color: white;
-  text-shadow: 4pt 4pt black;
+  text-shadow: 3pt 3pt black;
   margin: auto auto 20pt auto;
   text-align: center;
 }
@@ -54,6 +54,13 @@ h2 {
 h3 {
   margin: 0;
   font-size: 21pt;
+}
+
+h4 {
+  font-size: 14pt;
+  margin: auto;
+  padding-top: 3pt;
+  text-decoration: underline 1.5pt;
 }
 
 .sub {
@@ -120,8 +127,8 @@ h3 {
 }
 
 .mechanic .text-box {
-  padding: 3pt 5pt 5pt 5pt;
-  margin-top: 10pt;
+  padding: 0pt 5pt 0.01pt 5pt;
+  margin-top: 8pt;
 }
 
 .search label {
@@ -143,13 +150,115 @@ input:focus {
   outline: none;
 }
 
-@media (min-width: 751pt) {
+.mechanic .text-box p {
+  padding-left: 5pt;
+  margin-top: 5pt;
+}
+
+b {
+  text-shadow: 1pt 0 black;
+  letter-spacing: 0.8pt;
+}
+
+@keyframes glint-1 {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -128px 128px;
+  }
+}
+
+@keyframes glint-2 {
+  from {
+    background-position: -1pt 0;
+  }
+
+  to {
+    background-position: calc(-128px - 1pt) 128px;
+  }
+}
+
+.glint {
+  background: url("img/glint.png");
+  background-clip: text;
+  color: transparent;
+  animation: glint-1 linear infinite 5s;
+  letter-spacing: 1pt;
+}
+
+.glint::before {
+  content: attr(data-text);
+  background: url("img/glint.png");
+  background-clip: text;
+  color: transparent;
+  animation: glint-2 linear infinite 5s;
+  position: absolute;
+  transform: translateX(1pt);
+  letter-spacing: 1pt;
+}
+
+.glint.glint-teal,
+.glint.glint-teal::before {
+  background-image: url("img/glint_teal.png");
+}
+
+img.icon {
+  height: 20pt;
+  position: absolute;
+  image-rendering: crisp-edges;
+  filter: drop-shadow(10 10 10 black);
+}
+
+ul {
+  margin: 0;
+  padding-left: 15pt;
+}
+
+li {
+  list-style: none;
+  padding: 2pt 0 5pt 0;
+}
+
+ul.no-icons li {
+  padding-bottom: 0;
+}
+
+li span.no-icon {
+  margin-left: 11pt;
+}
+
+li span.no-icon::before {
+  content: "> "
+}
+
+li span.icon {
+  padding-bottom: 5pt;
+  margin-left: 23pt;
+  line-height: 16pt;
+}
+
+li i {
+  font-style: normal;
+  color: #555;
+}
+
+li.has-sublist {
+  padding-bottom: 0;
+}
+
+p.ul-header {
+  margin-bottom: 5pt;
+}
+
+@media (min-width: 770pt) {
   .column.recipes {
     min-width: 304pt;
   }
 }
 
-@media (max-width: 750pt) {
+@media (max-width: 770pt) {
   body {
     width: 100%;
   }
@@ -158,6 +267,7 @@ input:focus {
     text-align: center;
     font-size: 41pt;
     padding-left: 0;
+    text-shadow: 4pt 4pt black;
   }
 
   h3 {
@@ -190,5 +300,9 @@ input:focus {
 
   .recipe img {
     width: 200pt;
+  }
+
+  .mechanic .text-box {
+    margin-top: 6pt;
   }
 }
