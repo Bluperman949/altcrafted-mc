@@ -305,4 +305,8 @@ p.ul-header {
   .mechanic .text-box {
     margin-top: 6pt;
   }
+
+  .sub {
+    font-size: 10pt;
+  }
 }
