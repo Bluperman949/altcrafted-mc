@@ -4,6 +4,7 @@ scoreboard objectives add alt.math dummy
 scoreboard objectives add alt.display dummy
 scoreboard objectives add alt.consts dummy
 scoreboard objectives add alt.tick dummy
+scoreboard objectives add alt.logout custom:leave_game
 
 scoreboard players set $1000 alt.consts 1000
 scoreboard players set $100 alt.consts 100
@@ -18,12 +19,14 @@ scoreboard players set $jumpA alt.consts -182
 scoreboard players set $jumpB alt.consts 3690
 scoreboard players set $jumpC alt.consts 2129
 scoreboard players set $jumpD alt.consts 0343
-# 42.16 blocks/sec https://minecraft.wiki/w/Horse#Movement_speed
+# 42.16 blocks/sec https://wiki/w/Horse#Movement_speed
 scoreboard players set $move alt.consts 4216
 
 scoreboard objectives add alt.health health "Health"
 scoreboard objectives modify alt.health rendertype hearts
 scoreboard objectives setdisplay list alt.health
 scoreboard objectives add alt.deaths deathCount "Deaths"
+scoreboard objectives add alt.swam custom:swim_one_cm "Distance Swam"
+scoreboard objectives add alt.villkill killed:villager "Villagers Killed"
 
 setblock 16 -64 16 barrel

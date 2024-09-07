@@ -1,0 +1,2 @@
+tellraw @s [{"text":"","color":"blue"},{"text":"Welcome! "},{"text":"Click Here","underlined":true,"color":"aqua","clickEvent":{"action":"open_url","value":"https://bluperman949.github.io/altcrafted-mc"},"hoverEvent":{"action":"show_text","contents":{"text":"AltCrafted Guide"}}},{"text":" for our recipes and mechanics."}]
+scoreboard players reset @s alt.logout
