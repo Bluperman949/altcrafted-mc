@@ -260,6 +260,18 @@ ul.parent {
   margin-bottom: 14pt;
 }
 
+.altar {
+  height: 60pt;
+  display: block;
+  padding: auto;
+  text-align: center;
+}
+
+.altar * {
+  display: block;
+  margin: auto;
+}
+
 @media (min-width: 770pt) {
   .column.recipes {
     min-width: 304pt;
