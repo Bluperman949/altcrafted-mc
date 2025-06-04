@@ -164,8 +164,12 @@
             "minecraft:food": {
               "nutrition": 0,
               "saturation": 0,
-              "can_always_eat": true,
-              "consume_seconds": 2147483647
+              "can_always_eat": true
+            },
+            "minecraft:consumable": {
+              "consume_seconds": 2147483647,
+              "animation": "none",
+              "has_consume_particles": false
             }
           }
         }
