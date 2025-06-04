@@ -10,7 +10,7 @@
     },
     "title": "AltCrafted",
     "description": "Very Important Tasks™",
-    "background": "textures/block/dark_prismarine.png",
+    "background": "block/dark_prismarine",
     "announce_to_chat": false,
     "show_toast": false
   }

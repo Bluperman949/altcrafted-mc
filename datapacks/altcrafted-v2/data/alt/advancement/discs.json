@@ -191,6 +191,30 @@
           }
         ]
       }
+    },
+    "music_disc_creator_music_box": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "music_disc_creator_music_box"
+            ]
+          }
+        ]
+      }
+    },
+    "precipice": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "music_disc_precipice"
+            ]
+          }
+        ]
+      }
     }
   },
   "display": {
