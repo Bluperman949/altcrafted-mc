@@ -1,8 +1,6 @@
 {
   "type": "blasting",
-  "ingredient": {
-    "item": "raw_iron_block"
-  },
+  "ingredient": "raw_iron_block",
   "result": {
     "id": "iron_block"
   },

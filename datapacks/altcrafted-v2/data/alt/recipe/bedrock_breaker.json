@@ -5,15 +5,9 @@
     " T "
   ],
   "key": {
-    "O": {
-      "item": "egg"
-    },
-    "T": {
-      "item": "iron_pickaxe"
-    },
-    "#": {
-      "item": "netherite_scrap"
-    }
+    "O": "egg",
+    "T": "iron_pickaxe",
+    "#": "netherite_scrap"
   },
   "result": {
     "id": "enderman_spawn_egg"

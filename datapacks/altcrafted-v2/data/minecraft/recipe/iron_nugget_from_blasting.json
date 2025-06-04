@@ -1,39 +1,20 @@
 {
-    "type": "minecraft:blasting",
-    "category": "misc",
-    "cookingtime": 100,
-    "experience": 0.1,
-    "ingredient": [
-        {
-            "item": "minecraft:iron_pickaxe"
-        },
-        {
-            "item": "minecraft:iron_shovel"
-        },
-        {
-            "item": "minecraft:iron_axe"
-        },
-        {
-            "item": "minecraft:iron_hoe"
-        },
-        {
-            "item": "minecraft:iron_sword"
-        },
-        {
-            "item": "minecraft:chainmail_helmet"
-        },
-        {
-            "item": "minecraft:chainmail_chestplate"
-        },
-        {
-            "item": "minecraft:chainmail_leggings"
-        },
-        {
-            "item": "minecraft:chainmail_boots"
-        }
-    ],
-    "result": {
-        "count": 3,
-        "id": "minecraft:iron_nugget"
-    }
+  "type": "blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": [
+    "iron_pickaxe",
+    "iron_shovel",
+    "iron_axe",
+    "iron_hoe",
+    "iron_sword",
+    "chainmail_helmet",
+    "chainmail_chestplate",
+    "chainmail_leggings",
+    "chainmail_boots"
+  ],
+  "result": {
+    "id": "iron_nugget"
+  }
 }

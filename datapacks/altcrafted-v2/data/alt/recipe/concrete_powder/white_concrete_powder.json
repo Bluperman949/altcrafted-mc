@@ -1,8 +1,6 @@
 {
   "type": "smelting",
-  "ingredient": {
-    "item": "white_concrete"
-  },
+  "ingredient": "white_concrete",
   "result": {
     "id": "white_concrete_powder"
   },

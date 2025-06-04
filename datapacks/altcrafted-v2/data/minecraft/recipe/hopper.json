@@ -1,20 +1,16 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "i i",
-        "iCi",
-        " i "
-    ],
-    "key": {
-        "i": {
-            "item": "minecraft:iron_ingot"
-        },
-        "C": {
-            "item": "minecraft:chest"
-        }
-    },
-    "result": {
-        "id": "minecraft:hopper",
-        "count": 4
-    }
+  "type": "crafting_shaped",
+  "pattern": [
+    "i i",
+    "iCi",
+    " i "
+  ],
+  "key": {
+    "i": "iron_ingot",
+    "C": "chest"
+  },
+  "result": {
+    "id": "hopper",
+    "count": 4
+  }
 }

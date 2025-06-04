@@ -1,11 +1,9 @@
 {
   "type": "crafting_shapeless",
   "ingredients": [
-    {
-      "item": "glow_berries"
-    }
+    "glow_berries"
   ],
   "result": {
-    "id": "minecraft:glowstone_dust"
+    "id": "glowstone_dust"
   }
 }

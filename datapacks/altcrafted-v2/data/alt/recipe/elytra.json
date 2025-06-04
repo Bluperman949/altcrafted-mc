@@ -1,23 +1,15 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "crafting_shaped",
   "pattern": [
     "RIR",
     "#W#",
     "# #"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:elytra"
-    },
-    "#": {
-      "item": "minecraft:phantom_membrane"
-    },
-    "R": {
-      "item": "minecraft:breeze_rod"
-    },
-    "I": {
-      "item": "netherite_upgrade_smithing_template"
-    }
+    "W": "elytra",
+    "#": "phantom_membrane",
+    "R": "breeze_rod",
+    "I": "netherite_upgrade_smithing_template"
   },
   "result": {
     "id": "elytra",

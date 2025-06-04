@@ -28,5 +28,6 @@ scoreboard objectives setdisplay list alt.health
 scoreboard objectives add alt.deaths deathCount "Deaths"
 scoreboard objectives add alt.swam custom:swim_one_cm "Distance Swam"
 scoreboard objectives add alt.villkill killed:villager "Villagers Killed"
+scoreboard objectives add alt.traderkill killed:wandering_trader "Wandering Traders Killed"
 
 setblock 16 -64 16 barrel

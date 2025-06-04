@@ -1,8 +1,6 @@
 {
   "type": "smelting",
-  "ingredient": {
-    "item": "red_concrete"
-  },
+  "ingredient": "red_concrete",
   "result": {
     "id": "red_concrete_powder"
   },

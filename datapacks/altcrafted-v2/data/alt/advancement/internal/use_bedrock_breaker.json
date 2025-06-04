@@ -3,14 +3,21 @@
     "use_item": {
       "trigger": "item_used_on_block",
       "conditions": {
-        "item": {
-          "items": [
-            "bat_spawn_egg"
-          ],
-          "custom_data": {
-            "alt:id": "bedrock_breaker"
+        "location": [
+          {
+            "condition": "match_tool",
+            "predicate": {
+              "items": [
+                "bat_spawn_egg"
+              ],
+              "components": {
+                "custom_data": {
+                  "alt:id": "bedrock_breaker"
+                }
+              }
+            }
           }
-        }
+        ]
       }
     }
   },

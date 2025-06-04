@@ -1,8 +1,6 @@
 {
   "type": "smelting",
-  "ingredient": {
-    "item": "magenta_concrete"
-  },
+  "ingredient": "magenta_concrete",
   "result": {
     "id": "magenta_concrete_powder"
   },

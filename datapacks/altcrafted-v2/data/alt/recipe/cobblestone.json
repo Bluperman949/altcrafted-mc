@@ -1,8 +1,6 @@
 {
   "type": "stonecutting",
-  "ingredient": {
-    "item": "stone"
-  },
+  "ingredient": "stone",
   "result": {
     "id": "cobblestone",
     "count": 1

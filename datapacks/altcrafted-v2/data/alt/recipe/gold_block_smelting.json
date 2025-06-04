@@ -1,8 +1,6 @@
 {
   "type": "smelting",
-  "ingredient": {
-    "item": "raw_gold_block"
-  },
+  "ingredient": "raw_gold_block",
   "result": {
     "id": "gold_block"
   },

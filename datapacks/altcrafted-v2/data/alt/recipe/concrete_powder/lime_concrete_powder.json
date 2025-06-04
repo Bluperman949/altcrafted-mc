@@ -1,8 +1,6 @@
 {
   "type": "smelting",
-  "ingredient": {
-    "item": "lime_concrete"
-  },
+  "ingredient": "lime_concrete",
   "result": {
     "id": "black_concrete_powder"
   },

@@ -1,8 +1,6 @@
 {
   "type": "smelting",
-  "ingredient": {
-    "item": "purple_concrete"
-  },
+  "ingredient": "purple_concrete",
   "result": {
     "id": "purple_concrete_powder"
   },

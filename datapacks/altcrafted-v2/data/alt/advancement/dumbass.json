@@ -16,9 +16,7 @@
       "id": "wooden_hoe",
       "components": {
         "minecraft:enchantments": {
-          "levels": {
-            "minecraft:unbreaking": 1
-          }
+          "minecraft:unbreaking": 1
         }
       }
     },

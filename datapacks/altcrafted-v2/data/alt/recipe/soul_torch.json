@@ -5,12 +5,8 @@
 		"s"
 	],
 	"key": {
-		"#": {
-			"item": "glow_ink_sac"
-		},
-		"s": {
-			"item": "stick"
-		}
+		"#": "glow_ink_sac",
+		"s": "stick"
 	},
 	"result": {
 		"id": "soul_torch",

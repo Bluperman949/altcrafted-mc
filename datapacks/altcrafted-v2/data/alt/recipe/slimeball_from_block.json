@@ -1,36 +1,18 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:redstone"
-    },
-    {
-      "item": "minecraft:redstone"
-    },
-    {
-      "item": "minecraft:redstone"
-    },
-    {
-      "item": "minecraft:redstone"
-    },
-    {
-      "item": "minecraft:honey_block"
-    },
-    {
-      "item": "minecraft:lime_dye"
-    },
-    {
-      "item": "minecraft:lime_dye"
-    },
-    {
-      "item": "minecraft:lime_dye"
-    },
-    {
-      "item": "minecraft:lime_dye"
-    }
+    "redstone",
+    "redstone",
+    "redstone",
+    "redstone",
+    "honey_block",
+    "lime_dye",
+    "lime_dye",
+    "lime_dye",
+    "lime_dye"
   ],
   "result": {
-    "id": "minecraft:slime_ball",
+    "id": "slime_ball",
     "count": 4
   }
 }

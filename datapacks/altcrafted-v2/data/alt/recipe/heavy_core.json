@@ -1,22 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "crafting_shaped",
   "pattern": [
     "OLO",
     "LRL",
     "OLO"
   ],
   "key": {
-    "R": {
-      "item": "minecraft:reinforced_deepslate"
-    },
-    "O": {
-      "item": "minecraft:crying_obsidian"
-    },
-    "L": {
-      "item": "minecraft:lodestone"
-    }
+    "R": "reinforced_deepslate",
+    "O": "crying_obsidian",
+    "L": "lodestone"
   },
   "result": {
-    "id": "minecraft:heavy_core"
+    "id": "heavy_core"
   }
 }

@@ -1,10 +1,8 @@
 {
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "minecraft:rotten_flesh"
-  },
+  "type": "smelting",
+  "ingredient": "rotten_flesh",
   "result": {
-    "id": "minecraft:leather"
+    "id": "leather"
   },
   "experience": 0.2,
   "cookingtime": 200

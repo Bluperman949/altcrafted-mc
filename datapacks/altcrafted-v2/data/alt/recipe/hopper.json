@@ -1,20 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "crafting_shaped",
   "pattern": [
     "i i",
     "iCi",
     " i "
   ],
   "key": {
-    "i": {
-      "item": "minecraft:copper_ingot"
-    },
-    "C": {
-      "item": "minecraft:chest"
-    }
+    "i": "copper_ingot",
+    "C": "chest"
   },
   "result": {
-    "id": "minecraft:hopper",
+    "id": "hopper",
     "count": 1
   }
 }

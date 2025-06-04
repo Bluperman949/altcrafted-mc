@@ -1,20 +1,12 @@
 {
   "type": "stonecutting",
   "ingredient": [
-    {
-      "item": "minecraft:diamond_pickaxe"
-    },
-    {
-      "item": "minecraft:diamond_axe"
-    },
-    {
-      "item": "minecraft:diamond_hoe"
-    },
-    {
-      "item": "minecraft:diamond_sword"
-    }
+    "diamond_pickaxe",
+    "diamond_axe",
+    "diamond_hoe",
+    "diamond_sword"
   ],
   "result": {
-    "id": "minecraft:diamond"
+    "id": "diamond"
   }
 }

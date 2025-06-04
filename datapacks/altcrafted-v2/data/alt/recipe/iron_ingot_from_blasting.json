@@ -1,26 +1,16 @@
 {
-  "type": "minecraft:blasting",
+  "type": "blasting",
   "category": "misc",
   "cookingtime": 100,
   "experience": 0.1,
   "ingredient": [
-    {
-      "item": "minecraft:iron_helmet"
-    },
-    {
-      "item": "minecraft:iron_chestplate"
-    },
-    {
-      "item": "minecraft:iron_leggings"
-    },
-    {
-      "item": "minecraft:iron_boots"
-    },
-    {
-      "item": "minecraft:iron_horse_armor"
-    }
+    "iron_helmet",
+    "iron_chestplate",
+    "iron_leggings",
+    "iron_boots",
+    "iron_horse_armor"
   ],
   "result": {
-    "id": "minecraft:iron_ingot"
+    "id": "iron_ingot"
   }
 }

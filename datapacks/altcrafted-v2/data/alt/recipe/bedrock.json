@@ -1,15 +1,9 @@
 {
-  "type": "minecraft:smithing_transform",
-  "addition": {
-    "item": "minecraft:netherite_ingot"
-  },
-  "base": {
-    "item": "minecraft:deepslate"
-  },
-  "template": {
-    "item": "minecraft:netherite_ingot"
-  },
+  "type": "smithing_transform",
+  "addition": "netherite_ingot",
+  "base": "deepslate",
+  "template": "netherite_ingot",
   "result": {
-    "id": "minecraft:bedrock"
+    "id": "bedrock"
   }
 }

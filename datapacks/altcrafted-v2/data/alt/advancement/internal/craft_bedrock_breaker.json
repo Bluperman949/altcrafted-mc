@@ -1,9 +1,9 @@
 {
   "criteria": {
     "criterion": {
-      "trigger": "recipe_unlocked",
+      "trigger": "recipe_crafted",
       "conditions": {
-        "recipe": "alt:bedrock_breaker"
+        "recipe_id": "alt:bedrock_breaker"
       }
     }
   },

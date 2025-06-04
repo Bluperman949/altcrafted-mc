@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "item": "brown_mushroom"
-    }
+    "#": "brown_mushroom"
   },
   "result": {
     "id": "brown_mushroom_block"

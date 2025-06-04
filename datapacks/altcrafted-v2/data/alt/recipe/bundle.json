@@ -6,12 +6,8 @@
 		"###"
 	],
 	"key": {
-		"#": {
-			"item": "rabbit_hide"
-		},
-		"s": {
-			"item": "string"
-		}
+		"#": "rabbit_hide",
+		"s": "string"
 	},
 	"result": {
 		"id": "bundle"

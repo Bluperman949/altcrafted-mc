@@ -6,15 +6,9 @@
     " S#"
   ],
   "key": {
-    "#": {
-      "item": "string"
-    },
-    "S": {
-      "item": "stick"
-    },
-    "D": {
-      "item": "dropper"
-    }
+    "#": "string",
+    "S": "stick",
+    "D": "dropper"
   },
   "result": {
     "id": "dispenser"

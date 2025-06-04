@@ -5,12 +5,8 @@
     "RB"
   ],
   "key": {
-    "B": {
-      "item": "brown_mushroom"
-    },
-    "R": {
-      "item": "red_mushroom"
-    }
+    "B": "brown_mushroom",
+    "R": "red_mushroom"
   },
   "result": {
     "id": "mushroom_stem"

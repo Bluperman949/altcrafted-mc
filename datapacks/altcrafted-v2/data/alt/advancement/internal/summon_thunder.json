@@ -5,7 +5,7 @@
       "conditions": {
         "entity": {
           "type": "glow_item_frame",
-          "nbt": {"Item":{"id":"minecraft:heart_of_the_sea"}}
+          "nbt": "{\"Item\":{\"id\":\"minecraft:heart_of_the_sea\"}}"
         }
       }
     }

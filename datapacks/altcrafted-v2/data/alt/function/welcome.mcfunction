@@ -1,2 +1,2 @@
-tellraw @s [{"text":"","color":"blue"},{"text":"Welcome! "},{"text":"Click Here","underlined":true,"color":"aqua","clickEvent":{"action":"open_url","value":"https://bluperman949.github.io/altcrafted-mc"},"hoverEvent":{"action":"show_text","contents":{"text":"AltCrafted Guide"}}},{"text":" for our recipes and mechanics."}]
+tellraw @s [{"text":"","color":"blue"},{"text":"Welcome! "},{"text":"Click Here","underlined":true,"color":"aqua","click_event":{"action":"open_url","url":"https://bluperman949.github.io/altcrafted-mc"},"hover_event":{"action":"show_text","value":{"text":"AltCrafted Guide"}}},{"text":" for our recipes and mechanics."}]
 scoreboard players reset @s alt.logout

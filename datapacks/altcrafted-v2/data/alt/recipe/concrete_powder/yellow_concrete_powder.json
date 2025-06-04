@@ -1,8 +1,6 @@
 {
   "type": "smelting",
-  "ingredient": {
-    "item": "yellow_concrete"
-  },
+  "ingredient": "yellow_concrete",
   "result": {
     "id": "yellow_concrete_powder"
   },
