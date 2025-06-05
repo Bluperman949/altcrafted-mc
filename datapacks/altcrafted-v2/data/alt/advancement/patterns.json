@@ -71,6 +71,54 @@
           }
         ]
       }
+    },
+    "field_masoned": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "field_masoned_banner_pattern"
+            ]
+          }
+        ]
+      }
+    },
+    "bordure_indented": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bordure_indented_banner_pattern"
+            ]
+          }
+        ]
+      }
+    },
+    "flow": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "flow_banner_pattern"
+            ]
+          }
+        ]
+      }
+    },
+    "guster": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "guster_banner_pattern"
+            ]
+          }
+        ]
+      }
     }
   },
   "display": {

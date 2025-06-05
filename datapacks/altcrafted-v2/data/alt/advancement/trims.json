@@ -191,6 +191,30 @@
           }
         ]
       }
+    },
+    "bolt_armor_trim_smithing_template": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bolt_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    },
+    "flow_armor_trim_smithing_template": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "flow_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
     }
   },
   "display": {
