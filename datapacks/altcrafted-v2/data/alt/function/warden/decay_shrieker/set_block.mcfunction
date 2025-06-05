@@ -1,0 +1,2 @@
+execute store success score $foundShrieker alt.test if block ~ ~ ~ sculk_shrieker[can_summon=true]
+execute if predicate alt:shrieker_damage store success score $decayedShrieker alt.test run setblock ~ ~ ~ sculk_shrieker[can_summon=false]

@@ -1,9 +1,11 @@
 scoreboard objectives add alt.test dummy
-scoreboard objectives add alt.horseStats trigger
 scoreboard objectives add alt.math dummy
 scoreboard objectives add alt.display dummy
 scoreboard objectives add alt.consts dummy
 scoreboard objectives add alt.tick dummy
+scoreboard objectives add alt.raycast dummy
+
+scoreboard objectives add alt.horseStats trigger
 scoreboard objectives add alt.logout custom:leave_game
 
 scoreboard players set $1000 alt.consts 1000

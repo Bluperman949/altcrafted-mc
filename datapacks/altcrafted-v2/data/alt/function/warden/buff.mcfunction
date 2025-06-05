@@ -1,2 +1,2 @@
-tag @s add alt.warden
-item replace entity @s armor.head with stone_button[enchantments={projectile_protection:255}]
+tag @s add alt.warden.buffed
+data modify entity @s equipment.head.components."minecraft:enchantments" set value {projectile_protection:255}

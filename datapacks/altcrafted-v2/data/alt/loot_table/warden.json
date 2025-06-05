@@ -6,15 +6,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:sculk_catalyst"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
           "name": "minecraft:netherite_ingot",
           "weight": 1
         },
@@ -59,11 +50,6 @@
           "type": "minecraft:item",
           "name": "minecraft:silence_armor_trim_smithing_template",
           "weight": 2
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "killed_by_player"
         }
       ]
     },
@@ -172,11 +158,6 @@
               "has_consume_particles": false
             }
           }
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "killed_by_player"
         }
       ]
     }

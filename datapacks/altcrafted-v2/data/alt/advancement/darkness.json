@@ -5,6 +5,9 @@
       "conditions": {
         "effects": {
           "darkness": {}
+        },
+        "source": {
+          "type": "warden"
         }
       }
     }

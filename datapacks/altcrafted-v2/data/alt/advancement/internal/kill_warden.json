@@ -1,7 +1,7 @@
 {
   "criteria": {
-    "hit_warden": {
-      "trigger": "player_hurt_entity",
+    "kill_warden": {
+      "trigger": "player_killed_entity",
       "conditions": {
         "entity": {
           "type": "warden"
@@ -10,6 +10,6 @@
     }
   },
   "rewards": {
-    "function": "alt:warden/hit"
+    "function": "alt:warden/kill"
   }
 }

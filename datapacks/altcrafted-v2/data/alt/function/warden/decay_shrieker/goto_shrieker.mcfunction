@@ -1,0 +1,1 @@
+$execute in minecraft:overworld positioned $(x) $(y) $(z) run function alt:warden/decay_shrieker/set_block
