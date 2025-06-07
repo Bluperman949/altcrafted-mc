@@ -32,4 +32,6 @@ scoreboard objectives add alt.swam custom:swim_one_cm "Distance Swam"
 scoreboard objectives add alt.villkill killed:villager "Villagers Killed"
 scoreboard objectives add alt.traderkill killed:wandering_trader "Wandering Traders Killed"
 
+# for Shard of Knowledge data modification
 setblock 16 -64 16 barrel
+setblock 16 -63 16 bedrock
