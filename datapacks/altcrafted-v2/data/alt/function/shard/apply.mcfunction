@@ -6,6 +6,6 @@ data modify block 16 -64 16 Items[0].components."minecraft:enchantments" merge f
 # move the first (and hopefully upgraded) item from barrel to offhand
 item replace entity @s weapon.offhand from block 16 -64 16 container.0
 
-# mergine offhand item -> second barrel item will only succeed if they are different
+# merge offhand item -> second barrel item will only succeed if they are different
 execute store success score $shardApplied alt.test run data modify block 16 -64 16 Items[1].components."minecraft:enchantments" merge from entity @s equipment.offhand.components."minecraft:enchantments"
 execute if score $shardApplied alt.test matches 1 run function alt:shard/succeed
