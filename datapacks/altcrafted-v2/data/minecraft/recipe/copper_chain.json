@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "N",
+    "I",
+    "N"
+  ],
+  "key": {
+    "I": "copper_ingot",
+    "N": "copper_nugget"
+  },
+  "result": {
+    "count": 16,
+    "id": "copper_chain"
+  },
+  "show_notification": true
+}

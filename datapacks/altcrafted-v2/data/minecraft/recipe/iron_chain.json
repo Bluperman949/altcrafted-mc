@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "N",
+    "I",
+    "N"
+  ],
+  "key": {
+    "I": "iron_ingot",
+    "N": "iron_nugget"
+  },
+  "result": {
+    "count": 16,
+    "id": "iron_chain"
+  },
+  "show_notification": true
+}
