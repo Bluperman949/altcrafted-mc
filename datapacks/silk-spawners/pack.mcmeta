@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Use Silk Touch to pick up mob spawners.",
+    "min_format": 88,
+    "max_format": 90.1
+  }
+}

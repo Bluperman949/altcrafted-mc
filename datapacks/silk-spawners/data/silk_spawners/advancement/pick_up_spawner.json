@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "pick_up_spawner": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spawner",
+            "predicates": {
+              "minecraft:custom_data": {
+                "silk_spawners:processed": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "silk_spawners:pick_up_spawner"
+  }
+}

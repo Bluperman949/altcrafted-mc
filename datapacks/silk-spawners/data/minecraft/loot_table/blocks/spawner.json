@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "minecraft:blocks/spawner",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "minecraft:silk_touch",
+                      "levels": {
+                        "min": 1
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "copy_custom_data",
+              "source": "block_entity",
+              "ops": [
+                {
+                  "op": "replace",
+                  "source": "SpawnData.entity.id",
+                  "target": "silk_spawners:id"
+                }
+              ]
+            },
+            {
+              "function": "set_custom_data",
+              "tag": {
+                "silk_spawners:processed": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
