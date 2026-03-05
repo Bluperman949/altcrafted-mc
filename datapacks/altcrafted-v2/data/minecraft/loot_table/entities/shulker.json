@@ -1,4 +1,6 @@
 {
+  "type": "minecraft:entity",
+  "random_sequence": "minecraft:entities/shulker",
   "pools": [
     {
       "rolls": 1,
