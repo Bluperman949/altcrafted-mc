@@ -67,6 +67,13 @@ a {
   text-decoration: underline 1.5pt;
 }
 
+code {
+  font-family: "MinecraftSeven";
+  background-color: #00000088;
+  color: #ddd;
+  padding: 0 3pt 3pt 3pt;
+}
+
 .sub {
   text-align: center;
 }
