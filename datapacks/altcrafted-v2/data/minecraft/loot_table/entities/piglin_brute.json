@@ -1,0 +1,67 @@
+{
+  "type": "entity",
+  "random_sequence": "entities/piglin_brute",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "ancient_debris",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "type": "uniform",
+                "max": 1,
+                "min": 0
+              }
+            },
+            {
+              "function": "enchanted_count_increase",
+              "enchantment": "looting",
+              "count": {
+                "type": "uniform",
+                "max": 1.0,
+                "min": 0.0
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "type": "uniform",
+                "max": 2,
+                "min": 0
+              }
+            },
+            {
+              "function": "enchanted_count_increase",
+              "enchantment": "looting",
+              "count": {
+                "type": "uniform",
+                "max": 1.0,
+                "min": 0.0
+              }
+            }
+          ],
+          "name": "gold_ingot"
+        }
+      ]
+    }
+  ]
+}
