@@ -1,6 +1,7 @@
 {
   "pack": {
-    "pack_format": 71,
-    "description": "Recipes and utilities to make Minecraft easier\nUsed for AltCrafted"
+    "description": "Recipes and utilities to make Minecraft easier\nUsed for AltCrafted",
+    "min_format": 88,
+    "max_format": 94.1
   }
 }
