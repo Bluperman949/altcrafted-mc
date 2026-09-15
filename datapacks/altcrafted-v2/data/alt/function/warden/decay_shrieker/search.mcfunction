@@ -1,1 +1,1 @@
-execute as @e[type=item,nbt={Item:{id:"minecraft:stone_button"}}] at @s run function alt:warden/decay_shrieker/attempt
+execute as @e[nbt={Item:{id:"minecraft:stone_button"}},type=item] at @s run function alt:warden/decay_shrieker/attempt

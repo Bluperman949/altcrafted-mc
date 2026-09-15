@@ -1,2 +1,2 @@
 advancement revoke @s only alt:internal/summon_thunder
-execute at @e[type=glow_item_frame,limit=1,sort=nearest,nbt={Item:{id:"minecraft:heart_of_the_sea"}}] if block ~ ~-1 ~ lodestone if block ~ ~-1 ~-1 lightning_rod[facing=north] if block ~ ~-1 ~1 lightning_rod[facing=south] if block ~-1 ~-1 ~ lightning_rod[facing=west] if block ~1 ~-1 ~ lightning_rod[facing=east] run function alt:summon_thunder
+execute at @e[limit=1,sort=nearest,distance=..10,nbt={Item:{id:"minecraft:heart_of_the_sea"}},type=glow_item_frame] if block ~ ~-1 ~ lodestone if block ~ ~-1 ~-1 #lightning_rods[facing=north] if block ~ ~-1 ~1 #lightning_rods[facing=south] if block ~-1 ~-1 ~ #lightning_rods[facing=west] if block ~1 ~-1 ~ #lightning_rods[facing=east] run function alt:summon_thunder

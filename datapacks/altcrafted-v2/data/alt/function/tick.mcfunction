@@ -5,4 +5,4 @@ execute if score $200 alt.tick matches 200.. as @a run function alt:check_scores
 
 scoreboard players add $100 alt.tick 1
 execute if score $100 alt.tick matches 100.. as @a run function alt:warden/tick_search
-execute at @e[type=warden,tag=alt.warden.buffed] run function alt:warden/tick
+execute at @e[tag=alt.warden.buffed,type=warden] run function alt:warden/tick
